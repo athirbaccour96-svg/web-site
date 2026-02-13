@@ -113,8 +113,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             try {
                 // Initialize Supabase (REPLACE THESE WITH YOUR ACTUAL KEYS FROM SUPABASE DASHBOARD)
-                const SUPABASE_URL = 'https://YOUR_PROJECT_URL.supabase.co';
-                const SUPABASE_KEY = 'YOUR_ANON_KEY';
+                const SUPABASE_URL = 'https://lrybwigwxmvmdutvmyxu.supabase.co';
+                const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxyeWJ3aWd3eG12bWR1dHZteXh1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA5OTk3OTIsImV4cCI6MjA4NjU3NTc5Mn0.8avCyNwGID76DIDRiGQQyjmpL5OLPLb4mGhAz3h1nu8';
                 const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
                 // Insert data into 'messages' table
@@ -146,3 +146,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
+
